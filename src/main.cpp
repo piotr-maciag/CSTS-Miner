@@ -11,7 +11,7 @@
 #include <ctime>
 #include <chrono>
 
-#include "LoadData.h"
+#include "load_data.h"
 
 using namespace std;
 using namespace std::chrono;
