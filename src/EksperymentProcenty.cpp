@@ -22,7 +22,7 @@
 ////                double approxMargs[] = {0.001, 0.005, 0.01, 0.05, 0.1, 0.2};
 ////                int approxMargsSize = 6;
 ////
-////                exp3ExecTime.open("..//Results//ExpPercentPittsburgh2 _R" + to_string(R) + "_T" + to_string(T) + "_"  + "crimes.txt",
+////                exp3ExecTime.open("..//results//ExpPercentPittsburgh2 _R" + to_string(R) + "_T" + to_string(T) + "_"  + "crimes.txt",
 ////                                  fstream::out);
 ////
 ////                exp3ExecTime << "theta" << " ";

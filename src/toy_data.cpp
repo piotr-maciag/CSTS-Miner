@@ -1,5 +1,5 @@
 /*
-	string path = "..//events.txt";
+	string path = "..//toy_dataset.txt";
 
 	LoadDataset(path);
 

@@ -46,7 +46,7 @@ int main() {
 //
 //                for(approxMargin = 0.025; approxMargin <= 0.11; approxMargin += 0.025) {
 //
-//                    exp3ExecTime.open("../Results/CSTS_Miner_R" + to_string(R) + "_T"  + to_string(T) + "_" + to_string(approxMargin) + "_" + "_crimes.txt",
+//                    exp3ExecTime.open("../results/CSTS_Miner_R" + to_string(R) + "_T"  + to_string(T) + "_" + to_string(approxMargin) + "_" + "_crimes.txt",
 //                                      fstream::out);
 //
 //                    cout << "CSTS_Miner_R" + to_string(R) + "_T" + to_string(T) + "_" + to_string(approxMargin) + "_"  + paths[i] + ".txt" << endl;
@@ -83,7 +83,7 @@ int main() {
 //
 //                //////////////
 //
-//                exp3ExecTime.open("../Results/CTS_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
+//                exp3ExecTime.open("../results/CTS_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
 //                                  fstream::out);
 //
 //                cout << "CST_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_" + paths[i] + ".txt" << endl;
@@ -115,7 +115,7 @@ int main() {
 //
 //                //////////////
 //
-//                exp3ExecTime.open("../Results/STBFM_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
+//                exp3ExecTime.open("../results/STBFM_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
 //                                  fstream::out);
 //
 //                cout << "STBFM_R" + to_string(R) + "_T" + to_string(T) + "_" + paths[i] + ".txt" << endl;
@@ -148,7 +148,7 @@ int main() {
 
 //                //////////////
 //
-//                exp3ExecTime.open("../Results/CSTPM_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
+//                exp3ExecTime.open("../results/CSTPM_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
 //                                  fstream::out);
 //
 //                cout << "CSTPM_R" + to_string(R) + "_T" + to_string(T) + "_" + paths[i] + ".txt" << endl;
@@ -180,7 +180,7 @@ int main() {
 
                 //////////////
 
-                exp3ExecTime.open("../Results/STS-Miner_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
+                exp3ExecTime.open("../results/STS-Miner_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
                                   fstream::out);
 
                 cout << "STS-Miner_R" + to_string(R) + "_T" + to_string(T) + "_" + paths[i] + ".txt" << endl;

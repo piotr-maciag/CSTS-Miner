@@ -10,7 +10,7 @@ int main() {
 
 
 /*
-	string path = "..//events.txt";
+	string path = "..//toy_dataset.txt";
 
 	LoadDataset(path);
 
@@ -52,7 +52,7 @@ int main() {
 
                 for(approxMargin = 0.025; approxMargin <= 0.11; approxMargin += 0.025) {
 
-                    exp3ExecTime.open("..//Results//ACTS_SPMiner_R" + to_string(R) + "_T"  + to_string(T) + "_" + to_string(approxMargin) + "_" + "_crimes.txt",
+                    exp3ExecTime.open("..//results//ACTS_SPMiner_R" + to_string(R) + "_T"  + to_string(T) + "_" + to_string(approxMargin) + "_" + "_crimes.txt",
                                       fstream::out);
 
                     cout << "ACST_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_" + to_string(approxMargin) + "_"  + paths[i] + ".txt" << endl;
@@ -89,7 +89,7 @@ int main() {
 
                 //////////////
 
-//                exp3ExecTime.open("..//Results//CTS_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
+//                exp3ExecTime.open("..//results//CTS_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
 //                                  fstream::out);
 //
 //                cout << "CST_SPMiner_R" + to_string(R) + "_T" + to_string(T) + "_" + paths[i] + ".txt" << endl;
@@ -121,7 +121,7 @@ int main() {
 //
 //                //////////////
 //
-//                exp3ExecTime.open("..//Results//STBFM_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
+//                exp3ExecTime.open("..//results//STBFM_R" + to_string(R) + "_T" + to_string(T) + "_crimes.txt",
 //                                  fstream::out);
 //
 //                cout << "STBFM_R" + to_string(R) + "_T" + to_string(T) + "_" + paths[i] + ".txt" << endl;
